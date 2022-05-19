@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "chap1_Ex01.ipynd",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyOaXaXkwkmbtqOgufnZ+uP6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Hikaru-yokoo/EU_M_Math-Repositry/blob/main/chap1_Ex01_ipynd\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#practice1-1\n",
+        "#ある文字列(data Scienceなど)を変数に格納して、それを1文字ずつ表示させる。\n",
+        "keyword = (\"data Science\")\n",
+        "for i in range(len(keyword)):\n",
+        "    print(keyword[i])\n",
+        "\n",
+        "\n",
+        "print(keyword[0])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nBP-ySZkzjCr",
+        "outputId": "7ced95c2-4dab-4737-b4b1-4f869a7d7a5c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "d\n",
+            "a\n",
+            "t\n",
+            "a\n",
+            " \n",
+            "S\n",
+            "c\n",
+            "i\n",
+            "e\n",
+            "n\n",
+            "c\n",
+            "e\n",
+            "d\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xrHNpiqTvcsh",
+        "outputId": "c6d3a59e-1ba3-40dc-97c3-540d5aec7280"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
